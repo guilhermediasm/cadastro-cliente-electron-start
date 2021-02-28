@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Photon</title>
+  <meta charset="utf-8" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/photon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Electron Javascript -->
+  <script src="./renderer.js"></script>
+  <!-- <script src="app.js" charset="utf-8"></script> -->
+</head>
+
+<body>
+  <div class="window">
+    <header class="toolbar toolbar-header">
+      <h1 class="title">Loja</h1>
+      <div class="toolbar-actions">
+        <div class="btn-group">
+          <button class="btn btn-default">
+            <span class="icon icon-home"></span>
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-folder"></span>
+          </button>
+          <button class="btn btn-default active">
+            <span class="icon icon-cloud"></span>
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-popup"></span>
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-shuffle"></span>
+          </button>
+        </div>
+
+        <button class="btn btn-default">
+          <span class="icon icon-home icon-text"></span>
+          Filters
+        </button>
+
+        <button class="btn btn-default btn-dropdown pull-right">
+          <span class="icon icon-megaphone"></span>
+        </button>
+      </div>
+    </header>
+    <div class="window-content">
+      <div class="pane-group">
+        <div class="pane-sm sidebar">
+          <p>
+            Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="pane" id="tabela"></div>
+      </div>
+    </div>
+    <button id='open' class="btn btn-negative">Cadastro de cliente</button>
+    <footer class="toolbar toolbar-footer">
+      <h1 class="title">Desenvolvido por Guilherme Dias Maria</h1>
+    </footer>
+  </div>
+</body>
+
+</html>
